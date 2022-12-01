@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+    width: 100%;
+}
+
+.area-cabecalho {
+    background: black;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+#area-menu {
+    list-style-type:none;
+    line-height:2;
+    padding-left:0;
+}
+
+a {
+    list-style-type:none;
+}
+
+ul {
+    list-style-type:none;
+}
+
+:link, a:visited{
+    color: white;
+    text-decoration: none;
+  }
+
+  h1{
+    color:#4e4e4e;
+    font-size:2.5em;
+    margin-bottom: 20px;
+  }
+
+  h2{
+    color:#f7b600;
+  }
+  
+  h3{
+    color:#565656;
+    background:#ccc;
+    padding:5px;
+  }
+
+  main {
+    width:920px;
+    margin:0 auto;
+    padding:15px;
+  }
+
+  #area-postagens{
+    width:800px;
+    margin-bottom: 10px;
+  }
+
+  #rodape{
+    background: black;
+    clear:both;
+    text-align:center;
+    padding:15px;
+    color: white;
+  }
+
+ #img {
+    width: 100%;
+ }
+
+ button {
+    background:orange;
+    border:solid 1px black;
+    padding:2px 20px;
+    border-radius:3px;
+ }
