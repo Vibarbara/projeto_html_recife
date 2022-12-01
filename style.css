@@ -13,6 +13,7 @@ body {
 .area-cabecalho {
     background: black;
     padding: 15px;
+    margin:30px;
     text-align: center;
     color: white;
 }
@@ -27,8 +28,18 @@ a {
     list-style-type:none;
 }
 
+a:hover {
+  text-decoration: underline;
+  background:#f7b600;
+}
+
 ul {
     list-style-type:none;
+}
+
+ol {
+  list-style-type:none;
+  text-align: right;
 }
 
 :link, a:visited{
@@ -40,16 +51,19 @@ ul {
     color:#4e4e4e;
     font-size:2.5em;
     margin-bottom: 20px;
+    text-align: center;
   }
 
   h2{
     color:#f7b600;
+    text-align: center;
   }
   
   h3{
     color:#565656;
     background:#ccc;
     padding:5px;
+    text-align: center;
   }
 
   main {
@@ -66,9 +80,13 @@ ul {
   #rodape{
     background: black;
     clear:both;
-    text-align:center;
     padding:15px;
+    margin:30px;
     color: white;
+  }
+
+  #img-rodape {
+    text-align: left;
   }
 
  #img {
