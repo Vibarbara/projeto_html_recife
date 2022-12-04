@@ -1,101 +1,90 @@
 *{
-    margin:0;
-    padding: 0;
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
-    font-size: 1em;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background: #e6e6e6;
-    width: 100%;
+text-align-last: auto;
+font-size: 1rem;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+background: #e6e6e6;
+margin:0px 0px 30px 0px;
 }
 
 .area-cabecalho {
-    background: black;
-    padding: 15px;
-    margin:30px;
-    text-align: center;
-    color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+margin: 30px;
+background: black;
 }
 
-#area-menu {
-    list-style-type:none;
-    line-height:2;
-    padding-left:0;
-}
 
-a {
-    list-style-type:none;
-}
-
-a:hover {
-  text-decoration: underline;
-  background:#f7b600;
+main {
+width:920px;
+margin:0 auto;
+padding:15px;
 }
 
 ul {
-    list-style-type:none;
+display: flex;
+justify-content: space-between;
+gap: 16px;
 }
 
-ol {
-  list-style-type:none;
-  text-align: right;
+a {
+color: gray;
 }
 
-:link, a:visited{
-    color: white;
-    text-decoration: none;
-  }
+a:hover {
+text-decoration: underline;
+background:#f7b600;
+color: white;
+}
 
-  h1{
-    color:#4e4e4e;
-    font-size:2.5em;
-    margin-bottom: 20px;
-    text-align: center;
-  }
+h1 {
+color:#4e4e4e;
+margin-bottom: 20px;
+text-align: center;
+}
 
-  h2{
-    color:#f7b600;
-    text-align: center;
-  }
-  
-  h3{
-    color:#565656;
-    background:#ccc;
-    padding:5px;
-    text-align: center;
-  }
+h2{
+color:#f7b600;
+text-align: center;
+}
 
-  main {
-    width:920px;
-    margin:0 auto;
-    padding:15px;
-  }
+h3{
+color:#565656;
+background:#ccc;
+padding:5px;
+text-align: center;
+}
 
-  #area-postagens{
-    width:800px;
-    margin-bottom: 10px;
-  }
+.imagem {
+width: 80%;
+margin: auto;
+display: block;
+}
 
-  #rodape{
-    background: black;
-    clear:both;
-    padding:15px;
-    margin:30px;
-    color: white;
-  }
+legend {
+margin-left: 92px;
+}
 
-  #img-rodape {
-    text-align: left;
-  }
+.rodape{
+display: flex;
+justify-content: space-between;
+background: black;
+color: white;
+align-items: center;
+padding: 20px;
+margin: 30px;
+}
 
- #img {
-    width: 100%;
- }
-
- button {
-    background:orange;
-    border:solid 1px black;
-    padding:2px 20px;
-    border-radius:3px;
- }
+button {
+font-size: 1rem;
+padding: 10px;
+background: #f7b600 ;
+}
